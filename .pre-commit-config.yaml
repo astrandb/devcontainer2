@@ -29,4 +29,5 @@ repos:
       args: ["--autofix", "--no-ensure-ascii", "--no-sort-keys"]
       files: (/strings\.json$|translations/.+\.json$)
     - id: check-yaml
+      args: ["--unsafe"]
     - id: check-added-large-files
