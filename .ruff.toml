@@ -88,6 +88,11 @@ ignore = [
 
 ]
 
+[isort]
+force-sort-within-sections = true
+known-first-party = ["homeassistant"]
+combine-as-imports = true
+
 [flake8-pytest-style]
 fixture-parentheses = false
 
