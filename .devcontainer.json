@@ -40,6 +40,9 @@
                 "editor.formatOnSave": true,
                 "editor.formatOnType": true,
                 "files.trimTrailingWhitespace": true,
+                "[markdown]": {
+                    "files.trimTrailingWhitespace": false
+                },
                 "i18nJsonEditor.forceKeyUPPERCASE": false,
                 "i18nJsonEditor.supportedFolders": ["translations", "i18n"]
             }
