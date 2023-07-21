@@ -1,6 +1,6 @@
 # Home Assistant configuration
-config/*
-!config/configuration.yaml
+config/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
